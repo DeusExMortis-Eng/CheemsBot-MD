@@ -172,7 +172,7 @@ const levelRole = getLevelingLevel(m.sender)
 	if (isAntiLink) 
 if (budy.includes('https://chat.whatsapp.com/')) {
                if (!m.key.fromMe) {
-               reply('*LINK DETECTED*\nWow, how naughty, this group has been installed with Antilink, OK?..,\nGood Bye To You..👋🏻')
+               reply('*LINK DETECTED*\nLos links estan prohibidos, leíste las reglas?..,\nHasta luego..👋🏻')
                let sianj = m.sender
                await XeonBotInc.groupParticipantsUpdate(m.chat, [sianj], 'remove').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
                }
