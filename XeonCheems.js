@@ -185,8 +185,8 @@ if (budy.includes('https://chat.whatsapp.com/')) {
         let isLinkThisGc = new RegExp(gclink, 'i')
         let isgclink = isLinkThisGc.test(m.text)
         if (isgclink) return m.reply(`Eh sorry it didn't happen, because you sent this wa.me link`)
-        if (isAdmins) return m.reply(`Ehh sorry you admin`)
-        if (isCreator) return m.reply(`Ehh sorry you are the owner of me`)
+        if (isAdmins) return m.reply(`Ehh? eres admin? Lo siento!`)
+        if (isCreator) return m.reply(`Ehh lo siento pues si eres mi dueño`)
         XeonBotInc.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
         }
         }
