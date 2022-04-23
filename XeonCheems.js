@@ -2427,13 +2427,13 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Hi 🤚 ${pushname}
-How Are You? 😊
+                            hydratedFooterText: `Holaaa! 🤚 ${pushname}
+Como estas? 😊
 
 
 ❏「 INFO BOT 」
 
-𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+𝗦𝗽𝗲𝗲d : ${latensie.toFixed(4)} miliseconds
 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botnma}
 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownernma}
@@ -2442,19 +2442,9 @@ How Are You? 😊
 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
 
 
-Please Select Button Below
+Seleccione un boton de abajo
 `,
-                            hydratedButtons: [{
-                                urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
-                                }
-                            }, {
-                            	urlButton: {
-                                displayText: 'Script🔖',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
-                                }
-                            }, {
+                            hydratedButtons: [ {
                                 quickReplyButton: {
                                     displayText: '🍇All Menu🍇',
                                     id: `${prefix}allmenu`
