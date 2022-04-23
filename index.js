@@ -96,11 +96,11 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
 
 Description: ${metadata.desc}
 
-Welcome To Our Comfortable Happy😋, Sometimes Loud😜, Usually Messy🤥, Full Of Love🥰, HOME😌!!`} )
+Bienvenido a nuestro Groupo!😋, Espero que sea de su agrado😎, Has todas las amistades que gustes🥰, Cumple con las reglas 🗿, Disfruta😌!!`} )
                 } else if (anu.action == 'remove') {
                     XeonBotInc.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Left ${metadata.subject}
 
-I'm not sure if it was a goodbye charm, but it was fun while it lasted 😌✨` })
+Nunca Importo... 😌✨` })
                 }
             }
         } catch (err) {
