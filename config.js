@@ -42,11 +42,11 @@ global.mess = {
     private: 'Funcion solo para chat privado!',
     bot: 'Funcion exclusiva del bot',
     wait: 'In process...',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
+    endLimit: 'Solo admins - ban si continuas',
 }
 global.limitawal = {
     premium: "Infinity", //premium user limit
-    free: 100 //free user limit
+    free: 0 //free user limit
 }
 global.thumb = fs.readFileSync('./XeonMedia/cheemspic.jpg')
 
